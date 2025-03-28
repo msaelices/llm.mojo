@@ -6,3 +6,6 @@ data/
 # magic environments
 .magic
 x.mojo
+# pip environments
+env/
+venv/

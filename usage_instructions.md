@@ -8,6 +8,8 @@ Before running the following Python scripts, run this command to install the nec
 pip install -r requirements.txt
 ```
 
+Note: You can install a virtual environment to avoid conflicts with `python -m venv venv` and activate it with `source venv/bin/activate`.
+
 ### Step 2: Download and Tokenize a Dataset
 
 Use the [tinyshakespeare](https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt) dataset for a quick setup. This dataset is the fastest to download and tokenize. Run the following command to download and prepare the dataset:
